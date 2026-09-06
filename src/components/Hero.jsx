@@ -78,7 +78,7 @@ export default function Hero({ onOpenResume }) {
           className="font-['Space_Grotesk'] font-bold leading-tight mb-4"
           style={{ fontSize: 'clamp(2.2rem, 7vw, 4rem)' }}
         >
-          <span className="text-[var(--text-primary)]">I am </span><span className="gradient-text">Chintada Vasudharini</span>
+          <span className="text-[var(--text-primary)]">I am </span><span className="gradient-text">Raju Kumar</span>
         </motion.h1>
 
         {/* Typewriter */}
