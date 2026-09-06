@@ -64,7 +64,7 @@ export default function About() {
               <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-purple-500 via-violet-600 to-cyan-400 p-0.5 shadow-2xl shadow-purple-500/20">
                 <div className="w-full h-full rounded-2xl bg-[var(--bg-secondary)] overflow-hidden flex items-center justify-center">
                   <img
-                    src="/profile.jpeg"
+                    src="/portfolio/profile.jpeg"
                     alt="Chintada Vasudharini"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -80,9 +80,9 @@ export default function About() {
             {/* Quick stats */}
             <div className="grid grid-cols-3 gap-4 w-full">
               {[
-                { value: '2+', label: 'Internships' },
+                { value: '1+', label: 'Internships' },
                 { value: '5+', label: 'Projects' },
-                { value: '4+', label: 'Certs' },
+                { value: '2+', label: 'Certs' },
               ].map(s => (
                 <div key={s.label} className="glass-card p-4 text-center">
                   <p className="gradient-text font-bold text-2xl font-['Space_Grotesk']">{s.value}</p>
@@ -99,15 +99,14 @@ export default function About() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-1 font-['Space_Grotesk']">
-              Chintada Vasudharini
+              Raju Kumar
             </h3>
-            <p className="gradient-text font-semibold text-sm mb-5">AI-ML · DataScience · Python Full Stack · AWS</p>
+            <p className="gradient-text font-semibold text-sm mb-5">Software Engineer · Android · React-Native · Mobile Development</p>
 
             <p className="text-[var(--text-muted)] leading-relaxed mb-4">
-              I'm a software engineer and Computer Science graduate focused on the intersection of AIML, Data Science, AWS and Full-Stack Development. I specialize in building web applications using Python, JavaScript, Flask, MySQL, APIs, and AWS.
-            </p>
+              I'm a Senior Android Engineer with 6+ years of experience building scalable and reliable mobile applications across banking, fintech, and ed-tech. I specialize in Kotlin, Java, Jetpack Compose, Coroutines, MVVM, Clean Architecture, Dependency Injection, and modular Android development.            </p>
             <p className="text-[var(--text-muted)] leading-relaxed mb-8">
-              Driven by curiosity and a strong foundation in problem-solving, I love translating complex algorithms and data patterns into user-friendly tools. I am continuously exploring emerging tech to engineer robust, intelligent solutions that make an impact.
+              I enjoy taking ownership of features end-to-end—from architecture and implementation to API integration, testing, and production releases. I'm passionate about solving complex engineering problems, improving application performance, and building maintainable software that delivers a great user experience.
             </p>
 
             {/* Highlight cards */}

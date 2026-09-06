@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { FiArrowDown, FiDownload, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import { SiHackerrank, SiLeetcode } from 'react-icons/si';
 
-const TYPING_ROLES = ['AI-ML Enthusiast', 'Data Science Explorer', 'Python Full Stack Developer', 'AWS Certified Cloud Practitioner'];
+const TYPING_ROLES = ['Android Engineer', 'Software Engineer', 'Mobile Developer', 'Problem Solver'];
 
 import { useEffect, useState } from 'react';
 
@@ -100,8 +100,7 @@ export default function Hero({ onOpenResume }) {
           transition={{ delay: 0.55 }}
           className="text-[var(--text-muted)] text-base md:text-lg max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          B.Tech CSE graduate from KL University crafting scalable web apps,
-          cloud-native solutions, and intelligent AI systems.
+          Android & Software Engineer building scalable mobile applications, robust backend systems, and reliable software solutions with a focus on performance, architecture, and user experience.
         </motion.p>
 
         {/* CTA row */}
@@ -128,9 +127,9 @@ export default function Hero({ onOpenResume }) {
           className="flex gap-5 justify-center mb-16"
         >
           {[
-            { icon: FiGithub, href: 'https://github.com/chintadavasudharini', label: 'GitHub' },
-            { icon: FiLinkedin, href: 'https://www.linkedin.com/in/chintada-vasudharini-nov21/', label: 'LinkedIn' },
-            { icon: FiMail, href: 'mailto:chintadavasudharini@gmail.com', label: 'Email' },
+            { icon: FiGithub, href: 'https://github.com/rajupraaa1234', label: 'GitHub' },
+            { icon: FiLinkedin, href: 'https://linkedin.com/in/rajupraaa7272/', label: 'LinkedIn' },
+            { icon: FiMail, href: 'mailto:rajupraaa1234.com', label: 'Email' },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
@@ -152,7 +151,7 @@ export default function Hero({ onOpenResume }) {
         >
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-cyan-400 overflow-hidden flex items-center justify-center border border-[var(--border-glass)]">
             <img
-              src="/profile.jpeg"
+              src="/portfolio/profile.jpeg"
               alt="Avatar"
               className="w-full h-full object-cover object-top"
               onError={(e) => {
@@ -165,8 +164,8 @@ export default function Hero({ onOpenResume }) {
             </div>
           </div>
           <div className="text-left">
-            <p className="text-[var(--text-primary)] text-sm font-semibold">Chintada Vasudharini</p>
-            <p className="text-[var(--text-muted)] text-xs opacity-80">KL University · CSE · 8.51 CGPA</p>
+            <p className="text-[var(--text-primary)] text-sm font-semibold">Raju Kumar</p>
+            <p className="text-[var(--text-muted)] text-xs opacity-80">NIT Calicut · CSE · 7.9 CGPA</p>
           </div>
         </motion.div>
       </div>
