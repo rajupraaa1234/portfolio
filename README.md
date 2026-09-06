@@ -114,5 +114,5 @@ Feel free to reach out if you want to collaborate on a project, or just say hi!
 ---
 
 <div align="center">
-  <p>Designed & Engineered with ❤️ by Chintada Vasudharini</p>
+  <p>Designed & Engineered with ❤️ by Raju Kumar</p>
 </div>
