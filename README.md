@@ -11,7 +11,7 @@
 
 <br />
 
-**[🚀 View Live Portfolio](https://chintadavasudharini-portfolio.vercel.app/)**
+**[🚀 View Live Portfolio](https://rajupraaa1234.github.io/portfolio/)**
 
 </div>
 
