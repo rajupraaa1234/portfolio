@@ -36,9 +36,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="text-center md:text-left">
             <p className="font-['Space_Grotesk'] font-bold text-2xl gradient-text mb-1">
-              Chintada Vasudharini
+              Raju Kumar
             </p>
-            <p className="text-slate-400 text-sm">AI-ML · DataScience · Python Full Stack · AWS</p>
+            <p className="text-slate-400 text-sm">Software Engineer · Android · React-Native · Mobile Development</p>
           </div>
 
           {/* Nav links */}
@@ -82,7 +82,7 @@ export default function Footer() {
         <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-6" />
 
         <div className="flex flex-col items-center justify-center gap-3 text-slate-500 text-xs text-center">
-          <p>© {year} Chintada Vasudharini. All rights reserved.</p>
+          <p>© {year} Raju Kumar. All rights reserved.</p>
         </div>
       </div>
     </footer>
