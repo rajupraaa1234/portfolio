@@ -12,11 +12,10 @@ const links = [
 ];
 
 const socials = [
-  { icon: FiGithub,   href: 'https://github.com/chintadavasudharini',          label: 'GitHub'   },
-  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/chintada-vasudharini-nov21/',      label: 'LinkedIn' },
-  { icon: SiHackerrank, href: 'https://www.hackerrank.com/profile/Vasudharini_21', label: 'HackerRank' },
-  { icon: SiLeetcode, href: 'https://leetcode.com/u/chintadavasudharini/', label: 'LeetCode' },
-  { icon: FiMail,     href: 'mailto:chintadavasudharini@gmail.com',     label: 'Email'    },
+  { icon: FiGithub,   href: 'https://github.com/rajupraaa1234',          label: 'GitHub'   },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/rajupraaa7272/',      label: 'LinkedIn' },
+  { icon: SiLeetcode, href: 'https://leetcode.com/rajupraaa1234/', label: 'LeetCode' },
+  { icon: FiMail,       href: 'https://mail.google.com/mail/?view=cm&fs=1&to=rajupraaa1234@gmail.com',     label: 'Email'    },
 ];
 
 export default function Footer() {

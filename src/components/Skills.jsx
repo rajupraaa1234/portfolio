@@ -3,7 +3,7 @@ import {useInView} from 'framer-motion';
 import {useRef} from 'react';
 import {
     FaJs, FaHtml5, FaCss3Alt, FaBootstrap,
-    FaDatabase, FaAws, FaGitAlt, FaGithub, FaReact, FaCode,
+    FaDatabase, FaGitAlt, FaGithub, FaReact, FaCode,
     FaAndroid,
 } from 'react-icons/fa';
 import {

@@ -8,42 +8,34 @@ const contactLinks = [
   {
     icon: FiGithub,
     label: 'GitHub',
-    value: 'chintadavasudharini',
-    href: 'https://github.com/chintadavasudharini',
+    value: 'rajupraaa1234',
+    href: 'https://github.com/rajupraaa1234',
     color: 'text-slate-500',
     bg: 'var(--border-divider)',
   },
   {
     icon: FiLinkedin,
     label: 'LinkedIn',
-    value: 'chintada-vasudharini-nov21',
-    href: 'https://www.linkedin.com/in/chintada-vasudharini-nov21/',
+    value: 'rajupraaa7272',
+    href: 'https://www.linkedin.com/in/rajupraaa7272/',
     color: 'text-blue-500',
     bg: 'rgba(59, 130, 246, 0.08)',
   },
   {
     icon: FiMail,
     label: 'Email',
-    value: 'chintadavasudharini@gmail.com',
-    href: 'mailto:chintadavasudharini@gmail.com',
+    value: 'rajupraaa1234@gmail.com',
+    href: 'mailto:rajupraaa1234@gmail.com',
     color: 'text-purple-500',
     bg: 'rgba(139, 92, 246, 0.08)',
   },
   {
     icon: FiPhone,
     label: 'Phone',
-    value: '+91 7396922477',
-    href: 'tel:+917396922477',
+    value: '+91 7903241183',
+    href: 'tel:+917903241183',
     color: 'text-green-500',
     bg: 'rgba(34, 197, 94, 0.08)',
-  },
-  {
-    icon: FaWhatsapp,
-    label: 'WhatsApp',
-    value: '+91 7396922477',
-    href: 'https://wa.me/917396922477',
-    color: 'text-green-600',
-    bg: 'rgba(37, 211, 102, 0.08)',
   },
 ];
 
@@ -66,7 +58,7 @@ export default function Contact() {
     setStatus('sending');
     /* ── Replace with your EmailJS credentials ── */
     try {
-      const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const res = await fetch('https://formspree.io/f/rajupraaa1234', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(form),
@@ -113,10 +105,10 @@ export default function Contact() {
             className="space-y-5"
           >
             <div className="glass-card p-6 sm:p-8">
-              <h3 className="font-['Space_Grotesk'] font-bold text-[var(--text-primary)] text-xl mb-1">Chintada Vasudharini</h3>
-              <p className="gradient-text text-sm font-semibold mb-4 text-base">AI-ML · DataScience · Python Full Stack · AWS</p>
+              <h3 className="font-['Space_Grotesk'] font-bold text-[var(--text-primary)] text-xl mb-1">Raju Kumar</h3>
+              <p className="gradient-text text-sm font-semibold mb-4 text-base">Software Engineer · Android · React-Native · Mobile Development</p>
               <p className="text-[var(--text-muted)] text-sm leading-relaxed mb-8">
-                Based in Andhra Pradesh, India · Available for full-time roles &amp; freelance projects.
+                Based in Hyderabad, India · Available for full-time roles &amp; freelance projects.
               </p>
               <div className="flex flex-col gap-3">
                 {contactLinks.map(link => {

@@ -129,7 +129,7 @@ export default function Hero({ onOpenResume }) {
           {[
             { icon: FiGithub, href: 'https://github.com/rajupraaa1234', label: 'GitHub' },
             { icon: FiLinkedin, href: 'https://linkedin.com/in/rajupraaa7272/', label: 'LinkedIn' },
-            { icon: FiMail, href: 'mailto:rajupraaa1234.com', label: 'Email' },
+            { icon: FiMail, href: 'https://mail.google.com/mail/?view=cm&fs=1&to=rajupraaa1234@gmail.com', label: 'Email' },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}

@@ -35,7 +35,7 @@ export default function ResumeModal({ isOpen, onClose }) {
             {/* PDF Content */}
             <div className="flex-1 bg-white/5 relative">
               <iframe
-                src="/CHINTADA.VASUDHARINI.pdf#toolbar=0"
+                src="/portfolio/Raju_Resume.pdf#toolbar=0"
                 className="w-full h-full border-none"
                 title="Resume PDF"
               />
@@ -44,7 +44,7 @@ export default function ResumeModal({ isOpen, onClose }) {
             {/* Bottom Bar / Download Action */}
             <div className="absolute bottom-6 right-6 z-10">
               <a
-                href="/CHINTADA.VASUDHARINI.pdf"
+                href="/portfolio/Raju_Resume.pdf"
                 download
                 className="btn-primary flex items-center gap-2 shadow-2xl shadow-purple-500/30"
                 aria-label="Download PDF"
