@@ -1,13 +1,15 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { FiCode, FiCloud, FiCpu, FiBarChart2 } from 'react-icons/fi';
+import { FiLayers,FiServer,FiCheckCircle } from 'react-icons/fi';
+import { DiAndroid } from 'react-icons/di';
+
 
 const highlights = [
-  { icon: FiCpu,        label: 'AI & ML',      desc: 'NLP · Deep Learning · Hugging Face'    },
-  { icon: FiBarChart2,  label: 'Data Science', desc: 'Cleaning · Preprocessing · EDA · Analytics'  },
-  { icon: FiCode,       label: 'Full-Stack',   desc: 'Python · Flask · REST APIs · React'   },
-  { icon: FiCloud,      label: 'AWS Cloud',    desc: 'S3 · EC2 · Lambda · Deployment'        },
+  { icon: DiAndroid, label: 'Android Development',      desc: 'Kotlin · Java · Jetpack Compose · Android SDK'    },
+  { icon: FiLayers, label: 'Architecture & Engineering', desc: 'MVVM · Clean Architecture · Modularization · Coroutines · Flow'  },
+  { icon: FiServer, label: 'Backend & APIs',   desc: 'Spring Boot · REST APIs · Retrofit · OkHttp · Room'   },
+  { icon: FiCheckCircle, label: 'Testing & Quality',    desc: 'JUnit · MockK · Espresso · SonarQube · Code Reviews'        },
 ];
 
 function Card({ icon: Icon, label, desc, delay }) {
@@ -81,8 +83,8 @@ export default function About() {
             <div className="grid grid-cols-3 gap-4 w-full">
               {[
                 { value: '1+', label: 'Internships' },
-                { value: '5+', label: 'Projects' },
-                { value: '2+', label: 'Certs' },
+                { value: '10+', label: 'Projects' },
+                { value: '4+', label: 'Certs' },
               ].map(s => (
                 <div key={s.label} className="glass-card p-4 text-center">
                   <p className="gradient-text font-bold text-2xl font-['Space_Grotesk']">{s.value}</p>
