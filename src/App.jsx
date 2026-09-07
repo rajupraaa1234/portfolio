@@ -43,8 +43,8 @@ export default function App() {
         <Experience />
         <div className="h-px bg-gradient-to-r from-transparent via-[var(--border-divider)] to-transparent" />
 
-        <Projects />
-        <div className="h-px bg-gradient-to-r from-transparent via-[var(--border-divider)] to-transparent" />
+        {/*<Projects />*/}
+        {/*<div className="h-px bg-gradient-to-r from-transparent via-[var(--border-divider)] to-transparent" />*/}
 
         <Certifications />
         <div className="h-px bg-gradient-to-r from-transparent via-[var(--border-divider)] to-transparent" />
