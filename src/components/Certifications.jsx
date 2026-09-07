@@ -2,7 +2,6 @@ import {motion} from 'framer-motion';
 import {useInView} from 'framer-motion';
 import {useRef} from 'react';
 import {FiAward, FiExternalLink} from 'react-icons/fi';
-import {FaAws, FaRedhat, FaDatabase} from 'react-icons/fa';
 import {
     SiCodingninjas,
 } from 'react-icons/si';
@@ -20,6 +19,7 @@ const certifications = [
         border: 'border-orange-500/20',
         link: 'https://drive.google.com/file/d/158I8Kn7Zx5oqm6MkXRHYXa7B1w-CTD38/view',
         badge: 'Associate',
+        logo: "",
     },
     {
         title: 'Engineering Excellence Award',
@@ -32,6 +32,7 @@ const certifications = [
         border: 'border-red-500/20',
         link: 'https://drive.google.com/file/d/1kZ1bri_Ik1QajqvIOywRrEbbQPQyUNNY/view',
         badge: 'Professional',
+        logo: "/portfolio/lloyds.png",
     },
     {
         title: 'EI Maestro Award',
@@ -44,6 +45,7 @@ const certifications = [
         border: 'border-orange-500/20',
         link: 'https://drive.google.com/file/d/1vsM1P8lEFbfguflsnYnftmNZtcUzuEZk/view',
         badge: 'Professional',
+        logo: "/portfolio/ei.png",
     },
     {
         title: 'Devathon',
@@ -57,6 +59,7 @@ const certifications = [
         gradient: 'from-rose-500/15 to-pink-500/5',
         border: 'border-rose-500/20',
         badge: 'Professional',
+        logo: "/portfolio/ei.png",
     },
 ];
 
@@ -97,7 +100,15 @@ export default function Certifications() {
                                 <div className="flex items-center justify-between mb-4">
                                     <div
                                         className="w-12 h-12 rounded-xl bg-[var(--bg-card)] border border-[var(--border-glass)] flex items-center justify-center">
-                                        <Icon size={26} style={{color: cert.iconColor}}/>
+                                        {cert.badge === 'Professional' ? (
+                                            <img
+                                                src={cert.logo}
+                                                alt={cert.issuer}
+                                                className="w-full h-full object-contain rounded-lg"
+                                            />
+                                        ) : (
+                                            <Icon size={26} style={{color: cert.iconColor}}/>
+                                        )}
                                     </div>
                                     <div className="flex items-center gap-2">
                     <span
