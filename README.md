@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🚀 Chintada Vasudharini | Personal Portfolio
+# 🚀 Raju Kumar | Personal Portfolio
 
 **A high-performance, theme-aware professional portfolio built with modern React.**
 
