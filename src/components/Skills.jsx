@@ -7,12 +7,12 @@ import {
     FaAndroid,
 } from 'react-icons/fa';
 import {
-    SiDjango, SiGooglecloud,SiIntellijidea, SiPostman,
+    SiDjango, SiGooglecloud, SiIntellijidea, SiPostman,
     SiHackerrank, SiLeetcode, SiXcode, SiJetpackcompose, SiAndroidstudio, SiGradle,
     SiFirebase, SiKotlin, SiCplusplus, SiGeeksforgeeks, SiCoderabbit, SiCodingninjas,
     SiGithubcopilot,
     SiOpenai,
-    SiAnthropic,
+    SiAnthropic, SiRocket, SiRocketdotchat, SiWprocket,
 } from 'react-icons/si';
 import {
     FiCpu, FiCode as FiEdit3, FiUsers, FiDatabase,
@@ -131,6 +131,7 @@ const skillGroups = [
                 href: 'https://www.naukri.com/code360/profile/rajupraaa'
             },
             {name: 'LeetCode', icon: SiLeetcode, color: '#ffa116', href: 'https://leetcode.com/rajupraaa1234/'},
+            {name: 'NeetCode', icon: SiRocket, color: '#ffa116', href: 'https://neetcode.io/user/OnyxHaki749'},
         ],
     },
 ];
